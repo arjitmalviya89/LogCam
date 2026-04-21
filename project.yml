@@ -1,0 +1,14 @@
+name: LogCam
+options:
+  bundleIdPrefix: com.logcam
+targets:
+  LogCam:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - LogCam
+    info:
+      path: LogCam/Info.plist
+      properties:
+        UILaunchScreen: {}
